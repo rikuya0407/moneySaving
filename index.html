@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貯金管理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="head-word">
+            貯金管理
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="put">
+                <p class="put-word">入金料金</p>
+                <input class="put-text" type="text">円
+                <div class="btn">
+                    <button class="put-btn">入金</button>
+                </div>
+            </div>
+
+            <div class="out">
+                <p class="out-word">出金料金</p>
+                <input class="out-text" type="text">円
+                <div class="btn">
+                    <button class="out-btn">出金</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="now-money">
+            <p class="now-word">現在の貯金金額</p>
+            <div class="all-money">0</div>
+            <p class="no-out"></p>
+        </div>
+
+        <!-- <div class="history">
+            <p>＜履歴＞</p>
+        </div> -->
+    </main>
+    
+    <script src="js/textanimation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

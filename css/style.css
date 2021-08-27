@@ -1,0 +1,147 @@
+header .head-word {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 48px;
+  color: rgba(119, 90, 90, 0.692);
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+header .head-word .char {
+  display: inline-block;
+  -webkit-animation-name: ky-bounce;
+          animation-name: ky-bounce;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+header .head-word .char:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+header .head-word .char:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+header .head-word .char:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+header .head-word .char:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+@-webkit-keyframes ky-bounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes ky-bounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container .put {
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+
+main .container .put .put-word {
+  font-size: 24px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+main .container .put .btn {
+  margin-top: 30px;
+}
+
+main .container .put .btn .put-btn {
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+main .container .out {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+main .container .out .out-word {
+  font-size: 24px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+main .container .out .btn {
+  margin-top: 30px;
+}
+
+main .container .out .btn .out-btn {
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+main .now-money {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+main .now-money .now-word {
+  font-size: 24px;
+}
+
+main .now-money .all-money {
+  font-size: 24px;
+}
+
+main .now-money .no-out {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+main .history {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
